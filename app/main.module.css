@@ -13,12 +13,12 @@
     width: 200px;
 }
 .titleMain{
-    font-size: 50px;
-    color: #FFFFFF;
-    font-weight: 700;
-    width: 90%;
-    margin: 0 auto;
+    background-image: url('../public/Subtract.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
 }
+
 .navImg1{
     height: 65vh;
     width: 100%;
@@ -59,6 +59,7 @@ padding-left: 20px;
 .tokenImg{
     width: 350px;
     margin: 0 auto;
+    height: 300px;
 }
 .tokenBox{
     background-color: #E9E002;
@@ -79,10 +80,17 @@ padding-left: 20px;
     position: relative;
     bottom: 82px;
 }
+.sec2Img{
+    display: flex;
+    position: absolute;
+    top: -145px;
+    justify-content: flex-end;
+    right: -77px;
+}
 .flower{
 
-    position: relative;
-    top: -600px;
+    /* position: relative; */
+  
     
 }
 #navbarBtn{

@@ -12,28 +12,40 @@ export default function Home() {
   return (
     <main className="">
       <Navbar/>
-      <div className={main.titleMain}><Image src={titleImg} alt="image1" className={main.navImg1}/>
-      <div className={main.navtitlemain}>
-      <div className={main.title}>A DEX Where Your Assets </div>
-      <div  className={main.title}>Flow As Smoothly As </div>
-      <div  className={`${main["title"]} ${main["titleflex"]} `}>Music <Image src={star} alt="star"/>
+
+      <div class="box-container">
+        <Image src={titleImg} alt="Box Image" className="img-div"/>
+        <div class="text-overlay">
+        A DEX Where Your Assets Flow As Smoothly As Music
+        </div>
+    </div>
+    <div class="box-container2">
+    <div className={main.tokenBox}>
+      <Image src={token} alt="logo" className={main.tokenImg}/> 
       </div>
+    <div style={{width:"70%",height:"33vh"}}>
+      
+        <Image src={union} alt="Box Image" className="img-div2"/>
+      <div class="text-overlay2">
+        Experience Seamless Trading, Instant Liquidity, Unmatched Security, Experience the Future of Decentralized Finance.
       </div>
-      </div>
-     
+      <div className={main.sec2Img}><Image src={flower} alt="logo" className={main.flower}/></div>
+    </div>
+    </div>
+{/*      
       <div className={main.homeMain2}>
     <div className={main.tokenBox}><Image src={token} alt="logo" className={main.tokenImg}/> </div>
     <div >
     <Image src={union} alt="image1" className={main.navImg2}/>
     <div className={main.navtitlemain}>
       <div className={main.pera}>Experience Seamless Trading, Instant Liquidity, Unmatched Security, Experience the Future of Decentralized Finance. </div>
-     
+      <div style={{display:"flex", justifyContent:"flex-end"}}><Image src={flower} alt="logo" className={main.flower}/></div>
    </div>
    
     </div>
     
-      </div> 
-      <div style={{display:"flex", justifyContent:"flex-end"}}><Image src={flower} alt="logo" className={main.flower}/></div>
+      </div>  */}
+     
       
   <div className={main.footer}>Copyright BeatSwap @2024</div>
     </main>
