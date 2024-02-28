@@ -5,7 +5,7 @@ import token from "@/public/token.png"
 import flower from "@/public/flower.png"
 import Navbar from "./navbar";
 import titleImg from "@/public/Subtract.png"
-import union from "@/public/union.png"
+import union from "@/public/Union.png"
 import star from "@/public/star.png"
 
 export default function Home() {
