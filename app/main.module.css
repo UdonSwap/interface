@@ -1,0 +1,102 @@
+.logo{
+    width: 300px;
+}
+.navbarMain{
+    display: flex;
+}
+.navbar{
+    z-index: 999;
+    position: relative;
+    top: 24px;
+}
+.navbarBtn{
+    width: 200px;
+}
+.titleMain{
+    font-size: 50px;
+    color: #FFFFFF;
+    font-weight: 700;
+    width: 90%;
+    margin: 0 auto;
+}
+.navImg1{
+    height: 65vh;
+    width: 100%;
+    position: relative;
+    top: -70px;
+}
+.navtitlemain{
+    position: absolute;
+    top: 22%;
+}
+.titleflex{
+    display: flex;
+}
+.pera{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-left: 75px;
+    color: #FFFFFF;
+    width: 50%;
+    border-left: 5px solid white;
+padding-left: 20px;
+   
+}
+.footer{
+    color: #E9E002;
+    text-align: center;
+    /* position: relative;
+    bottom: 600px; */
+}
+.title{
+    font-size: 4rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-left: 75px;
+}
+
+.tokenImg{
+    width: 350px;
+    margin: 0 auto;
+}
+.tokenBox{
+    background-color: #E9E002;
+    border-radius: 10px;
+   
+}
+.homeMain2{
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    bottom: 60px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.navImg2{
+    position: relative;
+    bottom: 82px;
+}
+.flower{
+
+    position: relative;
+    top: -600px;
+    
+}
+#navbarBtn{
+    background-color: #E9E002;
+    color: #191918;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+@media only screen and (max-width: 425px) {
+    #navbarlogo{
+        width: 200px ;
+    }
+    .logo{
+        width: 100%;
+    }
+    
+ }
