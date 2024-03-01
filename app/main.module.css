@@ -1,17 +1,57 @@
-.logo{
-    width: 300px;
-}
-.navbarMain{
-    display: flex;
-}
-.navbar{
-    z-index: 999;
+.boxContainer {
     position: relative;
-    top: 24px;
-}
-.navbarBtn{
-    width: 200px;
-}
+    width: 100%; 
+  }
+  .boxContainer2 {
+    position: relative;
+    width: 90%;
+    display: flex;
+    top: -45px;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .imgdiv {
+    width: 90%;
+    top: -56px;
+    left: 85px;
+    position: relative;
+    margin: 0 auto;
+    height: 55vh;
+    
+  }
+  .imgdiv2 {
+    width: 100%;
+    top: -85px;
+    left: 35px;
+    position: relative;
+    margin: 0 auto;
+    height: 46vh; 
+  }
+  .textOverlay2 {
+    position: absolute;
+    top: 35%;
+    left: 62%;
+    width: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 45px;
+    font-weight: 600;
+    border-left: 5px solid white;
+    line-height: 147%;
+    letter-spacing: 1px;
+  }
+  .textOverlay {
+    position: absolute;
+    top: 44%;
+    left: 45%;
+    width: 65%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3.5em;
+    font-weight: 600;
+  }
 .titleMain{
     background-image: url('../public/Subtract.png');
     background-size: contain;
@@ -83,14 +123,13 @@ padding-left: 20px;
 .sec2Img{
     display: flex;
     position: absolute;
-    top: -145px;
+    top: -110px;
     justify-content: flex-end;
-    right: -77px;
+    right: -80px;
 }
 .flower{
-
-    /* position: relative; */
-  
+width: 100%;
+height: 50vh;
     
 }
 #navbarBtn{
