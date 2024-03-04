@@ -23,12 +23,16 @@
   }
 } */
 
+@font-face{
+  font-family: 'Actay';
+  src: url('/public/font/family/Actay-Regular.otf') format('otf');
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: #1E1E1E;
 }
 
-  
-
-
-
+.textOverlay{
+    font-family: 'Actay', sans-serif;
+}

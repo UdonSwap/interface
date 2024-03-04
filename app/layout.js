@@ -1,11 +1,16 @@
-import { Inter } from "next/font/google";
+import { Poppins } from 'next/font/google'
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Poppins({ subsets: ["latin"],weight:['400'] });
 
 export const metadata = {
   title: "BeatSwap",
   description: "A DEX Where Your Assets Flow As Smoothly As Music",
+};
+
+const actayFont = {
+  fontFamily: 'Actay',
+  fontFile: '/font/Actay-Regular.otf',
 };
 
 export default function RootLayout({ children }) {

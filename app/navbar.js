@@ -5,9 +5,9 @@ import Link from "next/link";
 
 export default function Navbar() {
     return(
-      
+    
       <div className={navStyle.divtoflexlogoconnectwallet}>
-        <div>
+        <div className={navStyle.logoimg}>
           <Link href="/">
             <Image
               className={navStyle.smartlogportal}
@@ -16,9 +16,13 @@ export default function Navbar() {
             />
           </Link>
         </div>
+
         <div className={navStyle.connectwalletbuttondiv}>
-        <button className={navStyle.navBtn}>LAUNCH APP</button>
+          <button className={navStyle.navBtn}>
+            LAUNCH APP
+          </button>
         </div>
+
       </div>
     
 
