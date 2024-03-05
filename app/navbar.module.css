@@ -1,147 +1,131 @@
 .divtoflexlogoconnectwallet {
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    position: relative;
-    z-index: 2;
-  }
-
-.logoimg{
-  width: 50%;
-}  
-
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10%;
+  color: white;
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
 .smartlogportal {
-    width: auto;
-    float: left;
-    height: 48px;
-    margin-top: 38px;
-    margin-left: 15%;
-  }
+  width: auto;
+  float: left;
+  height: 48px;
+}
 
 #changeMode {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    margin-left: 10px;
-  }
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.navBtn {
+  background-color: #e9e002;
+  color: #191918;
+  width: max-content;
+  padding: 13px 30px;
+  border-radius: 45px;
+  font-size: 15px;
+  border: none;
+  margin-right: 30px;
+  font-family: "__Poppins_45434c";
+  float: right;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
 
-.connectwalletbuttondiv {
-    width: 50%;
+@media only screen and (max-width: 1135px) and (min-width: 1024px) {
+  .navBtn {
+    margin-right: 0;
   }
-
-.navBtn{
-    background-color: #E9E002;
-    color: #191918;
-    width: max-content;
-    padding: 13px 30px;
-    border-radius: 45px;
-    font-size: 15px;
-    border: none;
-    float: right;
-    margin-top: 49px;
-    margin-right: 20%;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  }
-
-@media only screen and (max-width: 1135px) and (min-width: 1024px){
-  .navBtn{
-    margin-right: 17%;
+  .divtoflexlogoconnectwallet {
+    top: 20;
   }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 870px){
-  .navBtn{
-    margin-right: 17%;
+@media only screen and (max-width: 1024px) and (min-width: 870px) {
+  .navBtn {
     padding: 13px 25px;
   }
 }
 
-@media only screen and (max-width: 870px) and (min-width: 768px){
-  .navBtn{
-    margin-right: 14%;
+@media only screen and (max-width: 870px) and (min-width: 768px) {
+  .navBtn {
     padding: 11px 20px;
+  }
+  .divtoflexlogoconnectwallet {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 4%;
+    color: white;
+    z-index: 2;
+    align-items: center;
+    position: relative;
+    top: 15px;
   }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 650px){
-  .navBtn{
-    margin-right: 12%;
+@media only screen and (max-width: 768px) and (min-width: 650px) {
+  .navBtn {
     padding: 11px 20px;
     font-size: 14px;
   }
 }
 
-@media only screen and (max-width: 650px) and (min-width: 580px){
-  .navBtn{
-    margin-right: 13%;
+@media only screen and (max-width: 650px) and (min-width: 580px) {
+  .navBtn {
     padding: 11px 18px;
     font-size: 12px;
   }
 }
 
-@media only screen and (max-width: 580px) and (min-width: 426px){
+@media only screen and (max-width: 580px) and (min-width: 426px) {
   .smartlogportal {
     height: 35px;
-    margin-top: 20px;
-  }
-
-  .navBtn{
-    margin-right: 15%;
-    padding: 9px 16px;
-    font-size: 10px;
-    border-radius: 35px;
-    margin-top: 20px;
-   }
-
-  @media only screen and (max-width: 520px) and (min-width: 465px){
-    .navBtn{
-      margin-right: 12%;
-     }
-    }
-
-  @media only screen and (max-width: 465px) and (min-width: 426px){
-      .navBtn{
-        margin-right: 12%;
-        padding: 9px 13px;
-        font-size: 9px;
-        border-radius: 33px;
-       }
-      }
-
-}
-
-@media only screen and (max-width: 426px) and (min-width: 376px){
-  .smartlogportal {
-    height: 32px;
-    margin-top: 8px;
   }
 
   .navBtn {
-    margin-right: 10%;
-    padding: 9px 16px;
-    font-size: 8px;
+    padding: 9px 20px;
+    font-size: 12px;
     border-radius: 35px;
-    margin-top: 8px;
   }
 
+  @media only screen and (max-width: 465px) and (min-width: 426px) {
+    .navBtn {
+      padding: 9px 13px;
+      font-size: 9px;
+      border-radius: 33px;
+    }
+  }
+}
+
+@media only screen and (max-width: 426px) and (min-width: 376px) {
+  .smartlogportal {
+    height: 32px;
+    width: 150px;
+  }
+
+  .navBtn {
+    padding: 9px 16px;
+    font-size: 12px;
+    border-radius: 35px;
+  }
 }
 
 @media only screen and (max-width: 376px) {
   .smartlogportal {
-    height: 25px;
-    margin-top: 6px
+    width: 120px;
+    height: 35px;
   }
 
   .navBtn {
-    margin-right: 13%;
     padding: 9px 12px;
-    font-size: 7px;
+    font-size: 12px;
     border-radius: 30px;
-    margin-top: 8px;
   }
 
-  @media only screen and (max-width: 350px){
-    .navBtn{
+  @media only screen and (max-width: 350px) {
+    .navBtn {
       padding: 8px 10px;
       font-size: 6px;
     }

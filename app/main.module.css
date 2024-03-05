@@ -1,103 +1,100 @@
 .boxContainer {
-    position: relative;
-    width: 93%; 
-    margin: 0 auto;
-  }
+  position: relative;
+  width: 93%;
+  margin: 0 auto;
+}
 
 .imgdiv {
-    top: -65px;
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-  }
+  top: -65px;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
 
 .boxContainer2 {
-    position: relative;
-    width: 93%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-  }
-
-.tokenBox{
-    width: 29.7%;
-    height: 350px;
-    background-color: #E9E002;
-    border-radius: 30px;
-    margin-top: -60px;
+  position: relative;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
-.tokenImg{
-    width: 100%;
-    height: 100%;
+.tokenBox {
+  width: 29.7%;
+  height: 350px;
+  background-color: #e9e002;
+  border-radius: 30px;
+  margin-top: -60px;
 }
 
-.secdiv{
-    width: 69.9%;
+.tokenImg {
+  width: 100%;
+  height: 100%;
 }
 
-.redimg{
-    width: 100%;
+.secdiv {
+  width: 69.9%;
+}
+
+.redimg {
+  width: 100%;
 }
 
 .imgdiv2 {
-    width: 100%;
-    position: relative;
-    margin-top: -162px;
-  }
+  width: 100%;
+  position: relative;
+  margin-top: -162px;
+}
 
 .textOverlay {
-    font-family: 'Actay', sans-serif;
-    position: absolute;
-    top: 255px;
-    left: 50%;
-    width: 80%;
-    transform: translate(-50%, -50%);
-    color: white;
-    /* font-size: 3.5rem; */
-    font-size: 88px;
-    font-weight: 600;
-    }
+  font-family: "Actay", sans-serif;
+  position: absolute;
+  top: 255px;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+  font-size: 85px;
+  font-weight: 600;
+}
 
 .textOverlay2 {
-    position: absolute;
-    top: 35%;
-    left: 58%;
-    width: 30%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 1.5rem;
-    padding-left: 45px;
-    font-weight: 600;
-    border-left: 5px solid white;
-    line-height: 147%;
-    letter-spacing: 1px;
-    }
-
-.starimg{
-    margin-top: 9px;
-    width: 8%;
-    height: max-content;
+  position: absolute;
+  top: 35%;
+  left: 58%;
+  width: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 45px;
+  border-left: 5px solid white;
+  line-height: 147%;
+  letter-spacing: 1px;
 }
 
-.sec2Img{
-    position: absolute;
-    width: 20%;
-    top: -130px;
-    right: -4.3%;
+.starimg {
+  margin-top: 9px;
+  height: max-content;
 }
 
-.flower{
-    width: 100%;
+.sec2Img {
+  position: absolute;
+  width: 20%;
+  top: 56%;
+  right: 0;
 }
 
-.footer{
-    color: #E9E002;
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px 0px;
+.flower {
+  width: 100%;
 }
 
+.footer {
+  color: #e9e002;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0px;
+}
 
 /* .titleMain{
     background-image: url('../public/Subtract.png');
@@ -163,220 +160,269 @@
     padding: 15px 30px;
     border-radius: 50px;
 }  */
-
-@media only screen and (max-width: 950px) and (min-width: 768px){
-    .textOverlay2{
-        width: 40%;
-        margin-left: 15px;
-        padding-left: 35px;
-    }
+@media only screen and (max-width: 1135px) and (min-width: 1024px) {
+  .textOverlay {
+    font-family: "Actay", sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+  }
+  .textOverlay2 {
+    position: absolute;
+    top: 28%;
+    left: 58%;
+    width: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    padding-left: 45px;
+    border-left: 5px solid white;
+    line-height: 130%;
+    letter-spacing: 1px;
+  }
+  .starimg {
+    width: 75px;
+  }
+  .sec2Img {
+    position: absolute;
+    width: 20%;
+    top: 52%;
+    right: 0;
+  }
+  .flower {
+    height: 40vh;
+  }
+  .imgdiv2 {
+    width: 100%;
+    position: relative;
+    height: 42vh;
+    left: 6px;
+    margin-top: -144px;
+  }
+  .imgdiv {
+    height: 55vh;
+  }
+  .tokenBox {
+    height: 280px;
+  }
+}
+@media only screen and (max-width: 950px) and (min-width: 768px) {
+  .textOverlay2 {
+    width: 40%;
+    margin-left: 15px;
+    padding-left: 35px;
+  }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 580px){
-    .boxContainer{
-        height: 400px;
-        margin-top: 10px;
-    }
+@media only screen and (max-width: 768px) and (min-width: 580px) {
+  .boxContainer {
+    height: 400px;
+    margin-top: 10px;
+  }
 
-    .boxContainer2{
-        height: 800px;
-    }
+  .boxContainer2 {
+    height: 800px;
+  }
 
-    .imgdiv{
-        height: 100%;
-    }
+  .imgdiv {
+    height: 100%;
+  }
 
-    .tokenBox{
-        height: 240px;
-    }
+  .tokenBox {
+    height: 240px;
+  }
 
-    .redimg{
-        height: 310px;
-    }
+  .redimg {
+    height: 310px;
+  }
 
-    .imgdiv2{
-        height: 100%;
-        top: 32px;
-    }
+  .imgdiv2 {
+    height: 100%;
+    top: 32px;
+  }
 
-    .textOverlay{
-        font-size: 2.5rem;
-        top: 150px;
-    }
+  .textOverlay {
+    font-size: 2.5rem;
+    top: 150px;
+  }
 
-    .textOverlay2{
-        font-size: 1rem;
-        top: 40px;
-        width: 40%;
-        margin-left: 15px;
-        padding-left: 35px;
-    }
+  .textOverlay2 {
+    font-size: 1rem;
+    top: 40px;
+    width: 40%;
+    margin-left: 15px;
+    padding-left: 35px;
+  }
 
-    .sec2Img{
-        width: 18%;
-        height: 325px;
-    }
-    
-    .flower{
-        width: 100%;
-        height: 100%;
-    }
+  .sec2Img {
+    width: 18%;
+    height: 325px;
+  }
+
+  .flower {
+    width: 100%;
+    height: 100%;
+  }
 }
 
-@media only screen and (max-width: 580px){
-    .boxContainer{
-        height: 300px;
-        margin-top: 20px;
+@media only screen and (max-width: 580px) {
+  .boxContainer {
+    height: 300px;
+    margin-top: 20px;
+  }
+
+  .imgdiv {
+    height: 100%;
+  }
+
+  .textOverlay {
+    top: 37%;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 33px;
+  }
+
+  .starimg {
+    margin-left: 5px;
+    margin-top: 3px;
+  }
+
+  .boxContainer2 {
+    flex-direction: column-reverse;
+  }
+
+  .secdiv {
+    width: 100%;
+    height: auto;
+  }
+
+  .redimg {
+    width: 68%;
+    height: 240px;
+  }
+
+  .imgdiv2 {
+    width: 100%;
+    height: 100%;
+    top: 50px;
+    left: 46%;
+  }
+
+  .sec2Img {
+    margin-top: 43px;
+    left: 0;
+    width: 30%;
+    /* height: 175px; */
+    height: 250px;
+    transform: rotate(180deg);
+  }
+
+  .flower {
+    width: 100%;
+    height: 100%;
+  }
+
+  .textOverlay2 {
+    font-size: 1rem;
+    top: 30px;
+    width: 50%;
+    margin-left: 35px;
+    padding-left: 35px;
+  }
+
+  .tokenBox {
+    width: 100%;
+    height: 350px;
+    border-radius: 30px;
+    margin-top: -105px;
+  }
+
+  @media only screen and (max-width: 460px) {
+    .tokenBox {
+      height: 320px;
     }
-    
-    .imgdiv{
-        height: 100%
+    .textOverlay2 {
+      font-size: 0.8rem;
+      padding-left: 20px;
     }
-    
+  }
+
+  @media only screen and (max-width: 426px) and (min-width: 376px) {
+    .boxContainer {
+      height: 250px;
+      margin-top: 25px;
+    }
+
+    .secdiv {
+      margin-top: 8px;
+    }
+
+    .redimg {
+      height: 203px;
+    }
+
     .textOverlay {
-        top: 37%;
-        font-size: 26px;
-        font-weight: 600;
-        line-height: 33px;
-      }
- 
-    .starimg{
-        margin-left: 5px;
-        margin-top: 3px;
-      } 
-  
-    .boxContainer2 {
-        flex-direction: column-reverse;
-      }
-  
-    .secdiv{
-        width: 100%;
-        height: auto;
-      }
-
-    .redimg{
-        width: 68%;
-        height: 240px;
-      }
-  
-    .imgdiv2{
-        width: 100%;
-        height: 100%;
-        top: 50px;
-        left: 46%;
-        }  
-
-    .sec2Img{
-        margin-top: 43px;
-        left: 0;
-        width: 30%;
-        /* height: 175px; */
-        height: 250px;
-        transform: rotate(180deg);
-        }
-  
-    .flower{
-        width: 100%;
-        height: 100%;
-        }
-    
-    .textOverlay2{
-        font-size: 1rem;
-        top: 30px;
-        width: 50%;
-        margin-left: 35px;
-        padding-left: 35px;
+      top: 30%;
     }
 
-    .tokenBox{
-        width: 100%;
-        height: 350px;
-        border-radius: 30px;
-        margin-top: -105px;
+    .sec2Img {
+      height: 220px;
     }
 
-    @media only screen and (max-width: 460px){
-        .tokenBox{
-                height: 320px;
-        }
-        .textOverlay2{
-            font-size: 0.8rem;
-            padding-left: 20px;
-        }
+    .tokenBox {
+      height: 320px;
+    }
+    .textOverlay2 {
+      top: 20px;
+      font-size: 0.8rem;
+      padding-left: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 376px) {
+    .boxContainer {
+      height: 230px;
+      margin-top: 30px;
     }
 
-    @media only screen and (max-width: 426px) and (min-width: 376px){
-        .boxContainer{
-            height: 250px;
-            margin-top: 25px;
-        }
-
-        .secdiv{
-            margin-top: 8px;
-          }
-        
-        .redimg{
-            height: 203px;
-        }
-
-        .textOverlay{
-            top: 30%;
-        }
-
-        .sec2Img{
-            height: 220px;
-        }
-
-        .tokenBox{
-                height: 320px;
-        }
-        .textOverlay2{
-            top: 20px;
-            font-size: 0.8rem;
-            padding-left: 20px;
-        }
+    .secdiv {
+      margin-top: 11px;
     }
 
-    @media only screen and (max-width: 376px){
-        .boxContainer{
-            height: 230px;
-            margin-top: 30px;
-        }
-
-        .secdiv{
-            margin-top: 11px;
-          }
-        
-        .redimg{
-            height: 180px;
-        }
-
-        .textOverlay{
-            top: 28%;
-            font-size: 1.5rem;
-        }
-
-        .sec2Img{
-            height: 200px;
-        }
-
-        .tokenBox{
-                height: 250px;
-                width: auto;
-                margin-top: -108px;
-        }
-
-        .tokenImg{
-            width: 220px;
-            height: auto;
-            margin: auto;
-        }
-        .textOverlay2{
-            top: 5px;
-            font-size: 0.7rem;
-            padding-left: 15px;
-            padding-right: 10px;
-        }
+    .redimg {
+      height: 180px;
     }
 
+    .textOverlay {
+      top: 28%;
+      font-size: 1.5rem;
+    }
+
+    .sec2Img {
+      height: 200px;
+    }
+
+    .tokenBox {
+      height: 250px;
+      width: auto;
+      margin-top: -108px;
+    }
+
+    .tokenImg {
+      width: 220px;
+      height: auto;
+      margin: auto;
+    }
+    .textOverlay2 {
+      top: 5px;
+      font-size: 0.7rem;
+      padding-left: 15px;
+      padding-right: 10px;
+    }
+  }
 }
