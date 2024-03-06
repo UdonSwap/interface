@@ -13,7 +13,7 @@
 
 .boxContainer2 {
   position: relative;
-  width: 90%;
+  width: 93%;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -44,6 +44,7 @@
   width: 100%;
   position: relative;
   margin-top: -162px;
+  margin-left: 5px;
 }
 
 .textOverlay {
@@ -51,19 +52,19 @@
   position: absolute;
   top: 255px;
   left: 50%;
-  width: 80%;
+  width: 84%;
   transform: translate(-50%, -50%);
   color: white;
-
-  font-size: 85px;
+  font-size: 5rem;
   font-weight: 600;
+
 }
 
 .textOverlay2 {
   position: absolute;
   top: 35%;
   left: 58%;
-  width: 30%;
+  width: 33%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 1.5rem;
@@ -74,19 +75,22 @@
 }
 
 .starimg {
-  margin-top: 9px;
-  height: max-content;
+  margin-top: -3px;
+  margin-left: 10px;
+  height: 35%;
+  width: auto;
 }
 
 .sec2Img {
   position: absolute;
   width: 20%;
-  top: 56%;
+  top: 500px;
   right: 0;
 }
 
 .flower {
   width: 100%;
+  height: auto;
 }
 
 .footer {
@@ -101,24 +105,20 @@
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-} */
-
-/* .navImg1{
+}
+.navImg1{
     height: 65vh;
     width: 100%;
     position: relative;
     top: -70px;
 }
-
 .navtitlemain{
     position: absolute;
     top: 22%;
 }
-
 .titleflex{
     display: flex;
 }
-
 .pera{
     font-size: 20px;
     letter-spacing: 1px;
@@ -128,16 +128,13 @@
     width: 50%;
     border-left: 5px solid white;
     padding-left: 20px;
-   
-} */
-
-/* .title{
+}
+.title{
     font-size: 4rem;
     letter-spacing: 1px;
     font-weight: 600;
     margin-left: 75px;
-} */
-/* 
+}
 .homeMain2{
     display: flex;
     width: 90%;
@@ -148,19 +145,18 @@
     justify-content: space-between;
     align-items: flex-start;
 }
-
 .navImg2{
     position: relative;
     bottom: 82px;
-} */
-
-/* #navbarBtn{
+}
+#navbarBtn{
     background-color: #E9E002;
     color: #191918;
     padding: 15px 30px;
     border-radius: 50px;
 }  */
-@media only screen and (max-width: 1135px) and (min-width: 1024px) {
+
+/* @media only screen and (max-width: 1135px) and (min-width: 1024px) {
   .textOverlay {
     font-family: "Actay", sans-serif;
     position: absolute;
@@ -210,45 +206,75 @@
   .tokenBox {
     height: 280px;
   }
-}
-@media only screen and (max-width: 950px) and (min-width: 768px) {
-  .textOverlay2 {
-    width: 40%;
-    margin-left: 15px;
-    padding-left: 35px;
+} */
+
+
+@media only screen and ( max-width: 1398px) and ( min-width: 1315px){
+  .textOverlay{
+    font-size: 4.7rem;
   }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 580px) {
+@media only screen and ( max-width: 1315px) and ( min-width: 1219px){
+  .textOverlay{
+    font-size: 4.35rem;
+  }
+  
+  .sec2Img{
+    top: 550px;
+  }
+}
+
+@media only screen and ( max-width: 1219px) and ( min-width: 950px){
+  .textOverlay{
+    font-size: 4.05rem;
+  }
+  .sec2Img{
+    top: 555px;
+  }
+}
+
+@media only screen and ( max-width: 1148px) and ( min-width: 1060px){
+  .textOverlay{
+    font-size: 3.74rem;
+  }
+  .sec2Img{
+    top: 570px;
+  }
+}
+
+
+@media only screen and (max-width: 1060px) and (min-width: 580px) {
   .boxContainer {
     height: 400px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   .boxContainer2 {
-    height: 800px;
+    /* height: 800px; */
+    margin-top: 3px;
   }
 
   .imgdiv {
     height: 100%;
-  }
+    }
 
   .tokenBox {
     height: 240px;
   }
 
   .redimg {
-    height: 310px;
+    /* height: 310px; */
   }
 
   .imgdiv2 {
-    height: 100%;
+    height: 310px;
     top: 32px;
   }
 
   .textOverlay {
-    font-size: 2.5rem;
-    top: 150px;
+    font-size: 3.5rem;
+    top: 170px;
   }
 
   .textOverlay2 {
@@ -262,18 +288,80 @@
   .sec2Img {
     width: 18%;
     height: 325px;
+    top: 400px;
+  }
+
+  .secdiv{
+    height: 0;
   }
 
   .flower {
     width: 100%;
     height: 100%;
   }
+
+  @media only screen and ( max-width: 995px) and ( min-width: 940px){
+    .textOverlay{
+      font-size: 3.3rem;
+    }
+  }
+
+  @media only screen and ( max-width: 940px) and ( min-width: 883px){
+    .textOverlay{
+      font-size: 3.1rem;
+    }
+  }
+
+  @media only screen and ( max-width: 883px) and ( min-width: 827px){
+    .textOverlay{
+      font-size: 2.9rem;
+    }
+  }
+
+  @media only screen and ( max-width: 827px) and ( min-width: 772px){
+    .textOverlay{
+      font-size: 2.7rem;
+    }
+  }
+
+  @media only screen and ( max-width: 772px) and ( min-width: 716px){
+    .textOverlay{
+      font-size: 2.5rem;
+    }
+  }
+
+  @media only screen and ( max-width: 716px) and ( min-width: 673px){
+    .textOverlay{
+      font-size: 2.35rem;
+    }
+  }
+
+  @media only screen and ( max-width: 673px) and ( min-width: 632px){
+    .textOverlay{
+      font-size: 2.20rem;
+    }
+  }
+
+  @media only screen and ( max-width: 632px) and ( min-width: 589px){
+    .textOverlay{
+      font-size: 2.05rem;
+    }
+  }
+
+  @media only screen and ( max-width: 589px) and ( min-width: 580px){
+    .textOverlay{
+      font-size: 2rem;
+    }
+  }
+
 }
+
 
 @media only screen and (max-width: 580px) {
   .boxContainer {
+    width: 97%;
     height: 300px;
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
   .imgdiv {
@@ -281,18 +369,13 @@
   }
 
   .textOverlay {
-    top: 37%;
-    font-size: 26px;
-    font-weight: 600;
-    line-height: 33px;
-  }
-
-  .starimg {
-    margin-left: 5px;
-    margin-top: 3px;
+    top: 35%;
+    font-size: 2rem;
+    line-height: 40px;
   }
 
   .boxContainer2 {
+    width: 97%;
     flex-direction: column-reverse;
   }
 
@@ -314,10 +397,9 @@
   }
 
   .sec2Img {
-    margin-top: 43px;
-    left: 0;
+    top: 300px;    
+    left: 17px;
     width: 30%;
-    /* height: 175px; */
     height: 250px;
     transform: rotate(180deg);
   }
@@ -337,29 +419,44 @@
 
   .tokenBox {
     width: 100%;
-    height: 350px;
-    border-radius: 30px;
+    height: 250px;
+    border-radius: 20px;
     margin-top: -105px;
+    display: flex;
+    justify-content: center;
   }
 
-  @media only screen and (max-width: 460px) {
-    .tokenBox {
-      height: 320px;
+  .tokenImg{
+    width: 250px;
+    height: auto;
+  }
+
+  @media only screen and ( max-width: 553px) and ( min-width: 400px){
+    .textOverlay{
+      font-size: 1.85rem;
     }
+  }
+
+  @media only screen and (max-width: 460px) and ( min-width: 426px){
+    .textOverlay{
+      font-size: 1.6rem;
+    }
+    
     .textOverlay2 {
       font-size: 0.8rem;
       padding-left: 20px;
     }
-  }
+  } 
 
   @media only screen and (max-width: 426px) and (min-width: 376px) {
     .boxContainer {
       height: 250px;
-      margin-top: 25px;
+      margin-top: 45px;
     }
 
     .secdiv {
       margin-top: 8px;
+      margin-left: -4px;
     }
 
     .redimg {
@@ -368,17 +465,17 @@
 
     .textOverlay {
       top: 30%;
+      font-size: 1.45rem;
     }
 
     .sec2Img {
+      top: 245px;    
+      left: 15px;
       height: 220px;
     }
 
-    .tokenBox {
-      height: 320px;
-    }
     .textOverlay2 {
-      top: 20px;
+      top: 15px;
       font-size: 0.8rem;
       padding-left: 20px;
     }
@@ -387,11 +484,13 @@
   @media only screen and (max-width: 376px) {
     .boxContainer {
       height: 230px;
-      margin-top: 30px;
+      margin-top: 50px;
     }
 
     .secdiv {
-      margin-top: 11px;
+      margin-top: 12px;
+      margin-left: -4px;
+
     }
 
     .redimg {
@@ -400,29 +499,53 @@
 
     .textOverlay {
       top: 28%;
-      font-size: 1.5rem;
+      font-size: 1.25rem;
     }
 
     .sec2Img {
       height: 200px;
+      top: 230px;    
+      left: 13px;
     }
 
-    .tokenBox {
-      height: 250px;
-      width: auto;
-      margin-top: -108px;
-    }
-
-    .tokenImg {
-      width: 220px;
-      height: auto;
-      margin: auto;
-    }
     .textOverlay2 {
       top: 5px;
       font-size: 0.7rem;
       padding-left: 15px;
       padding-right: 10px;
+    }
+
+    .tokenBox{
+      height: 170px;
+    }
+
+    .tokenImg{
+      width: 170px;
+    }
+  }
+  @media only screen and ( max-width: 352px) and ( min-width: 300px){
+    .textOverlay{
+      font-size: 1.2rem;
+    }
+
+    .starimg{
+      margin-top: 4px;
+        margin-left: 10px;
+        height: 25%;
+        width: auto;
+    }
+  }
+
+  @media only screen and ( max-width: 352px) and ( min-width: 320px){
+    .textOverlay{
+      font-size: 1.17rem;
+    }
+
+    .starimg{
+        margin-top: 4px;
+        margin-left: 10px;
+        height: 25%;
+        width: auto;
     }
   }
 }

@@ -25,8 +25,9 @@
 
 @font-face {
   font-family: "Actay";
-  src: url("../public/fonts/Actay-Regular.otf");
+  src: url("../public/fonts/ActayWide-Bold.otf");
 }
+
 body {
   color: rgb(var(--foreground-rgb));
   background: #1e1e1e;

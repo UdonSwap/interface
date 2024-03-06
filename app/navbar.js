@@ -17,7 +17,7 @@ export default function Navbar() {
       </div>
 
       <div className={navStyle.connectwalletbuttondiv}>
-        <Link href="https://dex-interface-git-master-darshits-projects-b9e4d3eb.vercel.app/#/add/ETH">
+        <Link href="https://dex-interface-ecru.vercel.app/#/swap">
           <button className={navStyle.navBtn}>LAUNCH APP</button>
         </Link>
       </div>
