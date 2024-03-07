@@ -1,0 +1,609 @@
+.homeMainDiv{
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .boxContainer {
+    position: relative;
+    width: 93%;
+    margin: 0 auto;
+  }
+  
+  .imgdiv {
+    top: -65px;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .boxContainer2 {
+    position: relative;
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  
+  .tokenBox {
+    width: 29.7%;
+    height: 350px;
+    background-color: #e9e002;
+    border-radius: 30px;
+    margin-top: -60px;
+  }
+  
+  .tokenImg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .secdiv {
+    width: 69.9%;
+  }
+  
+  .redimg {
+    width: 100%;
+  }
+  
+  .imgdiv2 {
+    width: 100%;
+    position: relative;
+    margin-top: -162px;
+    margin-left: 5px;
+  }
+  
+  .textOverlay {
+    font-family: "Actay", sans-serif;
+    position: absolute;
+    top: 255px;
+    left: 50%;
+    width: 84%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5rem;
+    font-weight: 600;
+  
+  }
+  
+  .textOverlay2 {
+    position: absolute;
+    top: 35%;
+    left: 58%;
+    width: 33%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 45px;
+    border-left: 5px solid white;
+    line-height: 147%;
+    letter-spacing: 1px;
+  }
+  
+  .starimg {
+    margin-top: -3px;
+    margin-left: 10px;
+    height: 35%;
+    width: auto;
+  }
+  
+  .sec2Img {
+    position: absolute;
+    width: 20%;
+    top: 500px;
+    right: 0;
+  }
+  
+  .flower {
+    width: 100%;
+    height: auto;
+   
+  }
+  
+  .footer {
+    color: #e9e002;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0px;
+  }
+  
+  /* .titleMain{
+      background-image: url('../public/Subtract.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 100%;
+  }
+  .navImg1{
+      height: 65vh;
+      width: 100%;
+      position: relative;
+      top: -70px;
+  }
+  .navtitlemain{
+      position: absolute;
+      top: 22%;
+  }
+  .titleflex{
+      display: flex;
+  }
+  .pera{
+      font-size: 20px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      margin-left: 75px;
+      color: #FFFFFF;
+      width: 50%;
+      border-left: 5px solid white;
+      padding-left: 20px;
+  }
+  .title{
+      font-size: 4rem;
+      letter-spacing: 1px;
+      font-weight: 600;
+      margin-left: 75px;
+  }
+  .homeMain2{
+      display: flex;
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+      position: relative;
+      bottom: 60px;
+      justify-content: space-between;
+      align-items: flex-start;
+  }
+  .navImg2{
+      position: relative;
+      bottom: 82px;
+  }
+  #navbarBtn{
+      background-color: #E9E002;
+      color: #191918;
+      padding: 15px 30px;
+      border-radius: 50px;
+  }  */
+  
+  /* @media only screen and (max-width: 1135px) and (min-width: 1024px) {
+    .textOverlay {
+      font-family: "Actay", sans-serif;
+      position: absolute;
+      top: 200px;
+      left: 50%;
+      width: 80%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 60px;
+      font-weight: 600;
+    }
+    .textOverlay2 {
+      position: absolute;
+      top: 28%;
+      left: 58%;
+      width: 30%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 20px;
+      padding-left: 45px;
+      border-left: 5px solid white;
+      line-height: 130%;
+      letter-spacing: 1px;
+    }
+    .starimg {
+      width: 75px;
+    }
+    .sec2Img {
+      position: absolute;
+      width: 20%;
+      top: 52%;
+      right: 0;
+    }
+    .flower {
+      height: 40vh;
+    }
+    .imgdiv2 {
+      width: 100%;
+      position: relative;
+      height: 42vh;
+      left: 6px;
+      margin-top: -144px;
+    }
+    .imgdiv {
+      height: 55vh;
+    }
+    .tokenBox {
+      height: 280px;
+    }
+  } */
+  /* @media only screen and (min-width : 1441px) {
+    .boxContainer{
+      height: 60vh;
+    }
+    .imgdiv{
+      height: 100%;
+    }
+    .tokenBox {
+      height: 39vh;
+      border-radius: 40px;
+      margin-top: -42px;
+    }
+    
+    .imgdiv2 {
+      width: 100%;
+      height: 50vh;
+      margin-top: -198px;
+    }
+    
+    .textOverlay {
+      top: 450px;
+      font-size: 9rem;
+    }
+    
+    .textOverlay2 {
+      top: 40%;
+      font-size: 3rem;
+    }
+    
+    .sec2Img {
+      position: absolute;
+      width: 20%;
+      height: 50vh;
+      top:55%;
+      right: 0;
+    }
+    
+    .flower {
+      width: 100%;
+      height: 100%;
+     
+    }
+    
+    .footer {
+      color: #e9e002;
+      text-align: center;
+      margin-top: 20px;
+      padding: 10px 0px;
+    }
+  
+  } */
+  
+  @media only screen and ( max-width: 1398px) and ( min-width: 1315px){
+    .textOverlay{
+      font-size: 4.7rem;
+    }
+  }
+  
+  @media only screen and ( max-width: 1315px) and ( min-width: 1219px){
+    .textOverlay{
+      font-size: 4.35rem;
+    }
+    
+    .sec2Img{
+      top: 550px;
+    }
+  }
+  
+  @media only screen and ( max-width: 1219px) and ( min-width: 950px){
+    .textOverlay{
+      font-size: 4.05rem;
+    }
+    .sec2Img{
+      top: 555px;
+    }
+  }
+  
+  @media only screen and ( max-width: 1148px) and ( min-width: 1060px){
+    .textOverlay{
+      font-size: 3.74rem;
+    }
+    .sec2Img{
+      top: 570px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 1060px) and (min-width: 580px) {
+    .boxContainer {
+      height: 400px;
+      margin-top: 30px;
+    }
+  
+    .boxContainer2 {
+      /* height: 800px; */
+      margin-top: 3px;
+    }
+  
+    .imgdiv {
+      height: 100%;
+      }
+  
+    .tokenBox {
+      height: 240px;
+    }
+  
+    .redimg {
+      /* height: 310px; */
+    }
+  
+    .imgdiv2 {
+      height: 310px;
+      top: 32px;
+    }
+  
+    .textOverlay {
+      font-size: 3.5rem;
+      top: 170px;
+    }
+  
+    .textOverlay2 {
+      font-size: 1rem;
+      top: 40px;
+      width: 40%;
+      margin-left: 15px;
+      padding-left: 35px;
+    }
+  
+    .sec2Img {
+      width: 18%;
+      height: 325px;
+      top: 400px;
+    }
+  
+    .secdiv{
+      height: 0;
+    }
+  
+    .flower {
+      width: 100%;
+      height: auto;
+      
+    }
+  
+    @media only screen and ( max-width: 995px) and ( min-width: 940px){
+      .textOverlay{
+        font-size: 3.3rem;
+      }
+    }
+  
+    @media only screen and ( max-width: 940px) and ( min-width: 883px){
+      .textOverlay{
+        font-size: 3.1rem;
+      }
+    }
+  
+    @media only screen and ( max-width: 883px) and ( min-width: 827px){
+      .textOverlay{
+        font-size: 2.9rem;
+      }
+    }
+  
+    @media only screen and ( max-width: 827px) and ( min-width: 772px){
+      .textOverlay{
+        font-size: 2.7rem;
+      }
+    }
+  
+    @media only screen and ( max-width: 772px) and ( min-width: 716px){
+      .textOverlay{
+        font-size: 2.5rem;
+      }
+    }
+  
+    @media only screen and ( max-width: 716px) and ( min-width: 673px){
+      .textOverlay{
+        font-size: 2.35rem;
+      }
+    }
+  
+    @media only screen and ( max-width: 673px) and ( min-width: 632px){
+      .textOverlay{
+        font-size: 2.20rem;
+      }
+    }
+  
+    @media only screen and ( max-width: 632px) and ( min-width: 589px){
+      .textOverlay{
+        font-size: 2.05rem;
+      }
+    }
+  
+    @media only screen and ( max-width: 589px) and ( min-width: 580px){
+      .textOverlay{
+        font-size: 2rem;
+      }
+    }
+  
+  }
+  
+  
+  @media only screen and (max-width: 580px) {
+    .boxContainer {
+      width: 97%;
+      height: 300px;
+      margin-top: 50px;
+    }
+  
+    .imgdiv {
+      height: 100%;
+    }
+  
+    .textOverlay {
+      top: 35%;
+      font-size: 2rem;
+      line-height: 40px;
+    }
+  
+    .boxContainer2 {
+      width: 97%;
+      flex-direction: column-reverse;
+    }
+  
+    .secdiv {
+      width: 100%;
+      height: auto;
+    }
+  
+    .redimg {
+      width: 68%;
+      height: 240px;
+    }
+  
+    .imgdiv2 {
+      width: 100%;
+      height: 100%;
+      top: 50px;
+      left: 46%;
+    }
+  
+    .sec2Img {
+      top: 300px;    
+      left: 17px;
+      width: 30%;
+      height: 250px;
+      transform: rotate(180deg);
+    }
+  
+    .flower {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .textOverlay2 {
+      font-size: 1rem;
+      top: 30px;
+      width: 50%;
+      margin-left: 35px;
+      padding-left: 35px;
+    }
+  
+    .tokenBox {
+      width: 100%;
+      height: 250px;
+      border-radius: 20px;
+      margin-top: -105px;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .tokenImg{
+      width: 250px;
+      height: auto;
+    }
+  
+    @media only screen and ( max-width: 553px) and ( min-width: 400px){
+      .textOverlay{
+        font-size: 1.85rem;
+      }
+    }
+  
+    @media only screen and (max-width: 460px) and ( min-width: 426px){
+      .textOverlay{
+        font-size: 1.6rem;
+      }
+      
+      .textOverlay2 {
+        font-size: 0.8rem;
+        padding-left: 20px;
+      }
+    } 
+  
+    @media only screen and (max-width: 426px) and (min-width: 376px) {
+      .boxContainer {
+        height: 250px;
+        margin-top: 45px;
+      }
+  
+      .secdiv {
+        margin-top: 8px;
+        margin-left: -4px;
+      }
+  
+      .redimg {
+        height: 203px;
+      }
+  
+      .textOverlay {
+        top: 30%;
+        font-size: 1.45rem;
+      }
+  
+      .sec2Img {
+        top: 245px;    
+        left: 15px;
+        height: 220px;
+      }
+  
+      .textOverlay2 {
+        top: 15px;
+        font-size: 0.8rem;
+        padding-left: 20px;
+      }
+    }
+  
+    @media only screen and (max-width: 376px) {
+      .boxContainer {
+        height: 230px;
+        margin-top: 50px;
+      }
+  
+      .secdiv {
+        margin-top: 12px;
+        margin-left: -4px;
+  
+      }
+  
+      .redimg {
+        height: 180px;
+      }
+  
+      .textOverlay {
+        top: 28%;
+        font-size: 1.25rem;
+      }
+  
+      .sec2Img {
+        height: 200px;
+        top: 230px;    
+        left: 13px;
+      }
+  
+      .textOverlay2 {
+        top: 5px;
+        font-size: 0.7rem;
+        padding-left: 15px;
+        padding-right: 10px;
+      }
+  
+      .tokenBox{
+        height: 170px;
+      }
+  
+      .tokenImg{
+        width: 170px;
+      }
+    }
+    @media only screen and ( max-width: 352px) and ( min-width: 300px){
+      .textOverlay{
+        font-size: 1.2rem;
+      }
+  
+      .starimg{
+        margin-top: 4px;
+          margin-left: 10px;
+          height: 25%;
+          width: auto;
+      }
+    }
+  
+    @media only screen and ( max-width: 352px) and ( min-width: 320px){
+      .textOverlay{
+        font-size: 1.17rem;
+      }
+  
+      .starimg{
+          margin-top: 4px;
+          margin-left: 10px;
+          height: 25%;
+          width: auto;
+      }
+    }
+  }
+  

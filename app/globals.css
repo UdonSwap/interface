@@ -31,6 +31,8 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: #1e1e1e;
+  margin: 0;
+  padding: 0;
 }
 
 .textOverlay {
