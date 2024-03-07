@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../public/BeatSwapLogo.png";
+import logo from "../public/UdonSwapLogo.png";
 import navStyle from "@/app/navbar.module.css";
 import Link from "next/link";
 

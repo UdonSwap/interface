@@ -42,7 +42,7 @@ export default function Home() {
       <div className={main.sec2Img}>
         <Image src={flower} alt="logo" className={main.flower} />
       </div>
-      <div className={main.footer}>Copyright BeatSwap @2024</div>
+      <div className={main.footer}>Copyright UdonSwap @2024</div>
     </main>
   );
 }
