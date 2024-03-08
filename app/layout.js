@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Poppins({ subsets: ["latin"],weight:['400'] });
 
 export const metadata = {
-  title: "BeatSwap",
+  title: "UdonSwap",
   description: "A DEX Where Your Assets Flow As Smoothly As Music",
 };
 
