@@ -49,7 +49,7 @@
   height: auto;
   width: 5vw;
   margin: 2px;
-  animation: zoomInOut 1s infinite;
+  animation: zoomInOut 3s infinite;
 }
 
 .boxContainer2 {
@@ -73,7 +73,7 @@
 
 .tokenImg {
   height: auto;
-  width: 25vw;
+  /* width: 25vw; */
   padding-top: 20px;
 }
 
