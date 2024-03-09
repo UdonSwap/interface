@@ -1,13 +1,15 @@
 import Image from "next/image";
 import main from "@/app/main.module.css";
-import token from "@/public/token.png";
+import token from "@/public/homeToken.png";
 import flower from "@/public/flower.png";
-import Navbar from "./navbar";
+import Navbar from "./navbar/navbar";
 import titleImg from "@/public/Subtract.png";
 import union from "@/public/Union.png";
 import star from "@/public/star.png";
 
+
 export default function Home() {
+  const currentYear = new Date().getFullYear();
   return (
     <main className={main.homeMainDiv}>
       <Navbar />
@@ -42,7 +44,7 @@ export default function Home() {
       <div className={main.sec2Img}>
         <Image src={flower} alt="logo" className={main.flower} />
       </div>
-      <div className={main.footer}>Copyright UdonSwap @2024</div>
+      <div className={main.footer}>Copyright © <span style={{color:"#e9e002"}}>UdonSwap</span> {currentYear}</div>
     </main>
   );
 }

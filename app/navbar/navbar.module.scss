@@ -1,0 +1,109 @@
+$bg-color: #F1E9DA;
+$link-text-color: #fff;
+$button-bg-1: #541388;
+$button-bg-2: #D90368;
+$button-bg-3: #104547;
+$button-bg-4: #4F000B;
+$button-bg-5: #F28123;
+$border-radius: 6px;
+$overlay-color: #fff;
+.divtoflexlogoconnectwallet {
+    display: flex;
+    width: 93%;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+    z-index: 2;
+  }
+
+  .smartlogportal {
+    width: 20vw;
+    height: auto;
+    margin-top: 1vh;
+    margin-left: 5vw;
+  }
+
+  #changeMode {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .navBtn{
+    
+  }
+
+  .navBtn:hover{
+    font-weight: 600;
+   
+  }
+  .effect {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: $link-text-color;
+    text-transform: capitalize;
+    background-color: #e9e002;
+    color: #191918;
+    border: none;
+    font-family: "__Poppins_45434c";
+    font-size: 1vw;
+    font-weight: 500;
+    border-radius: 5vw;
+    margin-top: 5vh;
+    margin-right: 7vw;
+    cursor: pointer;
+    padding: 10px 0px;
+    width: 150px;
+    overflow: hidden;
+  }
+  
+.effect.effect-5 {
+  transition: all 0.2s linear 0s;
+  
+  &:before {
+    content: "»";
+    font-family: "FontAwesome";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 100%;
+    width: 30px;
+    background-color: rgba($overlay-color,0.3);
+    border-radius: 0 50% 50% 0;
+    transform: scale(0,1);
+    transform-origin: left center;
+    transition: all 0.2s linear 0s;
+  }
+  
+   &:hover {
+    text-indent: 30px;
+    
+    
+    &:before {
+      transform: scale(1,1);
+      text-indent: 0;
+    }
+  }}
+
+
+  @media only screen and (max-width: 426px){
+    .divtoflexlogoconnectwallet{
+        width: 100%;
+    }
+
+    .smartlogportal {
+        margin-top: 4vh;
+      }
+
+      .navBtn{
+        font-size: 2vw;
+        padding: 1vh 2.5vw;
+        margin-top: 4vh;
+      }
+  }

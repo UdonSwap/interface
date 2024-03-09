@@ -1,6 +1,6 @@
 import Image from "next/image";
-import logo from "../public/UdonSwapLogo.png";
-import navStyle from "@/app/navbar.module.css";
+import logo from "@/public/UdonSwapLogo.png";
+import navStyle from "../navbar/navbar.module.scss";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -18,7 +18,7 @@ export default function Navbar() {
 
       <div className={navStyle.connectwalletbuttondiv}>
         <Link href="https://dex-interface-ecru.vercel.app/#/swap">
-          <button className={navStyle.navBtn}>LAUNCH APP</button>
+          <button className={`${navStyle["navBtn"]} ${navStyle["effect"]} ${navStyle["effect-5"]}`}>LAUNCH APP</button>
         </Link>
       </div>
     </div>
