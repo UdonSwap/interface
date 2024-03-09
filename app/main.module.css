@@ -1,4 +1,14 @@
-
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .homeMainDiv{
   height: 100vh;
   margin: 0;
@@ -37,7 +47,9 @@
 
 .starimg {
   height: auto;
-  width: 6vw;
+  width: 5vw;
+  margin: 2px;
+  animation: zoomInOut 1s infinite;
 }
 
 .boxContainer2 {

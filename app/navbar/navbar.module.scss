@@ -31,7 +31,6 @@ $overlay-color: #fff;
   }
 
   .navBtn{
-    
   }
 
   .navBtn:hover{
@@ -55,9 +54,13 @@ $overlay-color: #fff;
     margin-top: 5vh;
     margin-right: 7vw;
     cursor: pointer;
-    padding: 10px 0px;
-    width: 150px;
+    // padding: 10px 0px;
+    padding: 1vh 2vw;
+    // width: 150px;
+    width: max-content;
     overflow: hidden;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
   }
   
 .effect.effect-5 {
