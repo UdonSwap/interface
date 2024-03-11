@@ -17,7 +17,7 @@ export default function Navbar() {
       </div>
 
       <div className={navStyle.connectwalletbuttondiv}>
-        <Link href="https://dex-interface-ecru.vercel.app/#/swap">
+        <Link href="https://dex-interface-ecru.vercel.app/#/swap" target="_blank">
           <button className={`${navStyle["navBtn"]} ${navStyle["effect"]} ${navStyle["effect-5"]}`}>LAUNCH APP</button>
         </Link>
       </div>
