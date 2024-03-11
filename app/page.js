@@ -25,6 +25,8 @@ export default function Home() {
             style={{ position: "absolute" }}
           />
         </div>
+
+
       </div>
 
       <div className={main.boxContainer2}>
