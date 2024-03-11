@@ -12,6 +12,9 @@ $overlay-color: #fff;
     width: 93%;
     margin: 0 auto;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 20px;
     color: white;
     position: relative;
     z-index: 2;
@@ -20,7 +23,7 @@ $overlay-color: #fff;
   .smartlogportal {
     width: 20vw;
     height: auto;
-    margin-top: 1vh;
+    // margin-top: 1vh;
     margin-left: 5vw;
   }
 
@@ -51,7 +54,7 @@ $overlay-color: #fff;
     font-size: 1vw;
     font-weight: 500;
     border-radius: 5vw;
-    margin-top: 5vh;
+    // margin-top: 5vh;
     margin-right: 7vw;
     cursor: pointer;
     padding: 10px 0px;
