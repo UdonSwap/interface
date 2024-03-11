@@ -47,7 +47,7 @@ export default function Home() {
       <div className={main.sec2Img}>
         <Image src={flower} alt="logo" className={main.flower} />
       </div>
-      <div className={main.footer}>Copyright © <span style={{color:"#e9e002"}}>UdonSwap</span> {currentYear}</div>
+      {/* <div className={main.footer}>Copyright © <span style={{color:"#e9e002"}}>UdonSwap</span> {currentYear}</div> */}
     </main>
   );
 }
