@@ -73,7 +73,7 @@
 
 .tokenImg {
   height: auto;
-  /* width: 25vw; */
+  width: 22vw;
   padding-top: 20px;
 }
 
@@ -129,6 +129,15 @@
   margin: auto 45px 15px;
 }
 
+@media screen and ( min-width:2000px){
+  .boxContainer {
+    position: relative;
+    width: 93%;
+    height: 55vh;
+    margin: 0 auto;
+    margin-top: -100px;
+  }
+}
 @media screen and ( max-width: 1000px){
   .sec2Img{
     top: 50vh;
