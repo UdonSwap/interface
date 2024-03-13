@@ -9,7 +9,7 @@ export const metadata = {
   description: "A DEX Where Your Assets Flow As Smoothly As Music",
   images: [
       {
-        url: "./public/metaImg.png", // Must be an absolute URL
+        url: "/metaImg.png", // Must be an absolute URL
         width: 800,
         height: 600,
       },
