@@ -24,12 +24,14 @@ export default function Homepage() {
   return (
     <React.Fragment>
     {loading ? (
-        <Lottie 
+        <div  className={main.loading}>
+          <Lottie 
         animationData={animation} 
         loop={true}
         autoplay={true}
-       className={main.loading}
+      style={{width:"300px",height:"300px"}}
         />
+        </div>
       
     ) : (
         <main className={main.homeMainDiv}>
