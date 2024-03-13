@@ -7,6 +7,8 @@ $button-bg-4: #4F000B;
 $button-bg-5: #F28123;
 $border-radius: 6px;
 $overlay-color: #fff;
+
+
 .divtoflexlogoconnectwallet {
     display: flex;
     width: 93%;
@@ -23,9 +25,7 @@ $overlay-color: #fff;
   .smartlogportal {
     width: 20vw;
     height: auto;
-    // margin-top: 1vh;
     margin-left: 5vw;
-    // margin-bottom: 10px;
   }
 
   #changeMode {
@@ -34,13 +34,10 @@ $overlay-color: #fff;
     cursor: pointer;
   }
 
-  .navBtn{
-  }
-
   .navBtn:hover{
     font-weight: 600;
-   
   }
+
   .effect {
     text-align: center;
     display: inline-block;
@@ -55,17 +52,14 @@ $overlay-color: #fff;
     font-size: 1vw;
     font-weight: 500;
     border-radius: 5vw;
-    // margin-top: 5vh;
     margin-top: 25px;
     margin-right: 7vw;
     cursor: pointer;
     padding: 10px 0px;
-    // padding: 1vh 2vw;
-    // width: 150px;
     width: 13vw;
     overflow: hidden;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
+    animation: zoomInOut 5s infinite;
   }
   
 .effect.effect-5 {
@@ -88,27 +82,56 @@ $overlay-color: #fff;
     transform: scale(0,1);
     transform-origin: left center;
     transition: all 0.2s linear 0s;
+
   }
   
    &:hover {
-    // text-indent: 30px;
     text-indent: 2.5vw;
-    
     
     &:before {
       transform: scale(1,1);
       text-indent: 0;
     }
   }}
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @media only screen and (max-width: 1024px){
+    .divtoflexlogoconnectwallet {
+      top: 9px;
+    }
 
+  }
 
+  @media only screen and (max-width: 768px){
+    .smartlogportal{
+      width: 25vw;
+      margin-left: 2vw;
+    }
+    .effect{
+      font-size: 1.3vw;
+      margin-top: 20px;
+    }
+
+  }
   @media only screen and (max-width: 426px){
     .divtoflexlogoconnectwallet{
         width: 100%;
+        top: 4px;
     }
 
     .smartlogportal {
-        margin-top: 4vh;
+      width: 30vw;
+      margin-top: 2vh;
+      margin-left: 2vw;
       }
 
       .navBtn{
@@ -116,5 +139,6 @@ $overlay-color: #fff;
         font-size: 1.5vw;
         padding: 1vh 2.5vw;
         margin-top: 4vh;
+        margin-right: 6vw;
       }
   }
