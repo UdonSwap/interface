@@ -9,7 +9,7 @@ export const metadata = {
   description: "A DEX Where Your Assets Flow As Smoothly As Music",
   images: [
       {
-        url: "https://gateway.lighthouse.storage/ipfs/QmQgtmCNXCgAywPcqofYKWAqU5Tb1YWYKtCYjLuio6uLgT", // Must be an absolute URL
+        url:"https://gateway.lighthouse.storage/ipfs/QmQgtmCNXCgAywPcqofYKWAqU5Tb1YWYKtCYjLuio6uLgT", // Must be an absolute URL
         width: 800,
         height: 600,
       },
