@@ -23,12 +23,12 @@ export const metadata = {
       siteName: "UdonSwap",
       images: [
         {
-          url:"https://app.optimism.io/og-image.png", // Must be an absolute URL
+          url:"https://gateway.lighthouse.storage/ipfs/QmQgtmCNXCgAywPcqofYKWAqU5Tb1YWYKtCYjLuio6uLgT", // Must be an absolute URL
           width: 800,
           height: 600,
         },
         {
-              url: "https://app.optimism.io/og-image.png", // Must be an absolute URL
+              url: "https://gateway.lighthouse.storage/ipfs/QmQgtmCNXCgAywPcqofYKWAqU5Tb1YWYKtCYjLuio6uLgT", // Must be an absolute URL
               width: 1800,
               height: 1600,
               alt: "My custom alt",
