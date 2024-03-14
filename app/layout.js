@@ -4,6 +4,12 @@ import "./globals.css";
 
 const inter = Poppins({ subsets: ["latin"],weight:['400'] });
 
+export const metadata = {
+  title: "UdonSwap",
+  description: "A DEX Where Your Assets Flow As Smoothly As Music",
+
+};
+
 
 
 export default function RootLayout({ children }) {

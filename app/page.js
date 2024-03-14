@@ -17,8 +17,8 @@ export const metadata = {
   title: "UdonSwap",
   description: "A DEX Where Your Assets Flow As Smoothly As Music",
     openGraph: {
-      title: "Home Page",
-      description: "Home Page Description...",
+      title: "UdonSwap",
+      description: "A DEX Where Your Assets Flow As Smoothly As Music",
       url: "https://beatswap-eta.vercel.app/",
       siteName: "UdonSwap",
       images: [
