@@ -16,7 +16,7 @@ $overlay-color: #fff;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    top: 20px;
+    top: 1px;
     color: white;
     position: relative;
     z-index: 2;
@@ -59,7 +59,7 @@ $overlay-color: #fff;
     width: 13vw;
     overflow: hidden;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    animation: zoomInOut 5s infinite;
+    // animation: zoomInOut 5s infinite;
   }
   
 .effect.effect-5 {
