@@ -11,11 +11,11 @@
   
   .boxContainer {
     position: relative;
-    width: 93%;
-    height: 55vh;
+    width: 90%;
+    height: 60vh;
     margin: 0 auto;
     /* margin-top: -60px; */
-    margin-top: -7vh;
+    margin-top: -9vh;
   }
   
   .imgdiv {
@@ -27,7 +27,7 @@
   
   .textOverlay { 
     position: absolute;
-    top: 15vh;
+    top: 17vh;
     left: 100px;
     width: 79%;
     font-family: "Actay", sans-serif;
@@ -81,7 +81,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    width: 93%;
+    width: 90%;
     height: 32vh;
     margin: 0 auto;
     margin-top: 1.5vh;
@@ -89,22 +89,30 @@
   
   .tokenBox {
     width: 29%;
-    height: 33.5vh;
-    background-color: #e9e002;
+    height: 36.5vh;
+    // background-color: #e9e002;
+    background-color: #fdf001;
     border-radius: 30px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    // justify-content: flex-end;
   }
   
   .tokenImg {
-    height: auto;
-    width: 22vw;
-    padding-top: 20px;
+    // height: 300px;
+    // width: 300px;
+    width: 17vw;
+    height: max-content;
+    max-height: 33.5vh;
+    border-radius: 30px;
+
+    // padding-top: 20px
   }
   
   .secdiv {
     width: 70%;
-    height: 44vh;
+    height: 47vh;
     margin-top: -10.5vh;
   }
   
@@ -122,7 +130,7 @@
   .textOverlay2 {
     position: absolute;
     top: 7vh;
-    left: 45%;
+    left: 36%;
     width: 30%;
     transform: translate(-50%, -50%);
     color: white;
@@ -154,10 +162,10 @@
   }
   .sec2Img {
     position: absolute;
-    height: 40vh;
+    height: 46vh;
     width: 16.5%;
-    top: 53vh;
-    right: 0;
+    top: 54vh;
+    right: 0px;
   }
   
   .flower {
@@ -237,8 +245,11 @@
     }
     
     .tokenImg {
-      height: auto;
-      width: 55vw;
+      height: max-content;
+      max-height: 29vh;
+      width: 40vw;
+      border-radius: 10px;
+
     }
     
     .textOverlay2 {

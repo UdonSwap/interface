@@ -11,6 +11,7 @@ import { useState,useEffect } from "react";
 import React from "react";
 import Lottie from 'lottie-react';
 import animation from "@/animation.json"
+import clip from '@/public/9.gif'
 
 export default function Homepage() {
     const [loading, setLoading] = useState(true);
@@ -51,7 +52,7 @@ export default function Homepage() {
 
         <div className={main.boxContainer2}>
           <div className={main.tokenBox}>
-            <Image src={token} alt="logo" className={main.tokenImg} />
+            <Image src={clip} alt="logo" className={main.tokenImg} />
           </div>
 
           <div className={main.secdiv}>
