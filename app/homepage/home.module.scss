@@ -89,7 +89,7 @@
   }
   
   .tokenBox {
-    width: 29.5%;
+    width: 29.7%;
     height: 36.5vh;
     // background-color: #e9e002;
     background-color: #fdf001;
@@ -216,7 +216,7 @@
     .boxContainer {
       height: 35vh;
       margin-top: -5vh;
-      width: 95%;
+      width: 98%;
     }
     
     .textOverlay { 
@@ -231,7 +231,7 @@
       margin: 0 auto;
       height: max-content;
       margin-top: -4px;
-      width: 95%;
+      width: 98%;
     }
   
     .secdiv {
@@ -278,12 +278,16 @@
     
     .sec2Img {
       position: absolute;
-      height: 33vh;
+      height: 32vh;
       width: 40%;
-      top: 32vh;
-      left: 2.5%;
+      top: 33vh;
+      left: 0;
       float: left;
       transform: rotate(180deg);
+    }
+    .flower{
+      right: -12%;
+
     }
     
     .footer {
