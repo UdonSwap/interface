@@ -12,6 +12,8 @@ import React from "react";
 import Lottie from 'lottie-react';
 import animation from "@/animation.json"
 import clip from '@/public/9.gif'
+import bg from "@/public/bg.png";
+
 
 export default function Homepage() {
     const [loading, setLoading] = useState(true);
@@ -67,7 +69,7 @@ export default function Homepage() {
           </div>
         </div>
         <div className={main.sec2Img}>
-          <Image src={flower} alt="logo" className={main.flower} />
+          <Image src={bg} alt="logo" className={main.flower} />
         </div>
       </main>
     )}

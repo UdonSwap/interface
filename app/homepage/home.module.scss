@@ -163,9 +163,10 @@
   }
   .sec2Img {
     position: absolute;
-    height: 47.5vh;
-    width: 40%;
-    top: 52vh;
+    height: 48.5vh;
+    // width: 40%;
+    aspect-ratio: 1;
+    top: 51vh;
     right: 0px;
     overflow: hidden;
   }
@@ -174,7 +175,7 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    right: -44%;
+    right: -38%;
   }
   .loading{
     width: 100%;
