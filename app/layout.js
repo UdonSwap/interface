@@ -5,6 +5,7 @@ import "./globals.css";
 const inter = Poppins({ subsets: ["latin"],weight:['400'] });
 
 export const metadata = {
+  metadataBase: new URL('https://udonswap.org/'),
   title: "UdonSwap",
   description: "A DEX Where Your Assets Flow As Smoothly As Music",
 

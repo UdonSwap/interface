@@ -14,6 +14,7 @@ export default function Home() {
 
 export const metadata = {
   // metadataBase: new URL('https://localhost:3000'),
+  metadataBase: new URL('https://udonswap.org/'),
   title: "UdonSwap",
   description: "A DEX Where Your Assets Flow As Smoothly As Music",
     openGraph: {
