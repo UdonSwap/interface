@@ -54,7 +54,7 @@ export default function Homepage() {
 
         <div className={main.boxContainer2}>
           <div className={main.tokenBox}>
-            <Image src={clip} alt="logo" className={main.tokenImg} />
+            <Image src={clip} loading="lazy" alt="logo" className={main.tokenImg} />
           </div>
 
           <div className={main.secdiv}>
